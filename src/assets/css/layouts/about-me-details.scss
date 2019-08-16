@@ -1,15 +1,17 @@
 .section-about-me-details{
     grid-row: 2 / 3;
-    grid-column: center-start / col-end 4;
+    grid-column: 1 / -1;
 
     // clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 89%);
 
     display: grid;
     
 
-    grid-template-rows: repeat(6, 1fr);
+
     grid-template-columns: repeat(6, 1fr);
 
-    // background-color: $background-color-info;
+    background-color: $background-color-info;
+
+   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 95%);
 
 }

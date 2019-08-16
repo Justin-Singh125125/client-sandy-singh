@@ -1,12 +1,22 @@
 .card{
     grid-row: 2 / 3;
-    grid-column: 1 / -1;
+    grid-column: 2 / 3;
     font-size: 1.2rem;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    &__info{
+        margin-top: 1.5rem;
+    }
 
     &__number, 
     &__fax,
     &__email,
-    &__office-address{
+    &__office-address,
+    &__CalBRE{
         display: flex;
         align-items: center;
 
@@ -38,15 +48,14 @@
     }
 
     &__number{
-
+  
     }
 
     &__fax{
 
     }
     &__email{
-        text-decoration: none;
-        color: black;
+   
     }
 
     &__office-address{

@@ -1,10 +1,11 @@
 .info-card{
 
     grid-row: 2 / 3;
-    grid-column: 1 / -1;
+    grid-column: 4 / 6;
 
     &__name{
-        font-size: 3rem;
+        font-size: 4rem;
+        letter-spacing: .2rem;
         font-weight: 400;
     }
 
@@ -16,6 +17,6 @@
     }
 
     &__info{
-
+        font-size: 1.3rem;
     }
 }

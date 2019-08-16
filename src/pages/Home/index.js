@@ -9,6 +9,8 @@ import Tease from "../../components/Tease";
 import Card from "../../components/Card";
 import InfoCard from "../../components/InfoCard";
 
+
+
 class Home extends React.Component {
     render() {
         return (
@@ -18,13 +20,13 @@ class Home extends React.Component {
 
                 </Section>
 
+
                 <Section id="about-me" sectionName="section-about-me-details">
                     <Card />
-                </Section>
-
-                <Section sectionName="section-about-me-info">
                     <InfoCard />
                 </Section>
+
+
 
 
             </Container>

@@ -5,10 +5,10 @@
 
     color: white;
     text-transform: uppercase;
+    font-family: $font-secondary;
 
 
     &__name{
-        font-family: $font-primary;
         font-size: 3rem;
         letter-spacing: .5rem;
     }
@@ -18,7 +18,6 @@
         align-items: center;
     }
     &__hook{
-        font-family: $font-primary;
         font-size: 3.5rem;
         letter-spacing: .2rem;
     }
