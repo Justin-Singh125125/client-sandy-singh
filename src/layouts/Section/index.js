@@ -2,7 +2,7 @@ import React from "react";
 
 const Section = props => {
     return (
-        <div className={props.sectionName}>{props.children}</div>
+        <div id={props.id ? props.id : ""} className={props.sectionName}>{props.children}</div>
     )
 }
 

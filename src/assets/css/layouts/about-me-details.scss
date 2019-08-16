@@ -1,0 +1,7 @@
+.section-about-me-details{
+    grid-row: 2 / 3;
+    grid-column: center-start / col-end 4;
+
+    background-color: palegreen;
+    // clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 89%);
+}
