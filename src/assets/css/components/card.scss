@@ -1,0 +1,55 @@
+.card{
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+    font-size: 1.2rem;
+
+    &__number, 
+    &__fax,
+    &__email,
+    &__office-address{
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 2rem;
+
+        transition: all .2s;
+        cursor: pointer;
+
+
+
+
+        &:hover{
+            color: $color-primary;
+
+            & > *{
+                fill: $color-primary;
+            }
+        }
+
+        
+    }
+
+    &__icon{
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
+        transition: all .2s;
+
+    }
+
+    &__number{
+
+    }
+
+    &__fax{
+
+    }
+    &__email{
+        text-decoration: none;
+        color: black;
+    }
+
+    &__office-address{
+
+    }
+}

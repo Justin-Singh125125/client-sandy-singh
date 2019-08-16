@@ -4,11 +4,10 @@ import React from "react";
 import Container from "../../layouts/container";
 import Section from "../../layouts/Section";
 
-//photos
-import ClientPhoto from "../../assets/img/client-photo.jpg";
-
 //components
 import Tease from "../../components/Tease";
+import Card from "../../components/Card";
+import InfoCard from "../../components/InfoCard";
 
 class Home extends React.Component {
     render() {
@@ -20,11 +19,11 @@ class Home extends React.Component {
                 </Section>
 
                 <Section id="about-me" sectionName="section-about-me-details">
-                    <img src={ClientPhoto} alt="" />
+                    <Card />
                 </Section>
 
                 <Section sectionName="section-about-me-info">
-                    &nbsp;
+                    <InfoCard />
                 </Section>
 
 
