@@ -6,16 +6,30 @@
     color: white;
     text-transform: uppercase;
 
+
     &__name{
         font-family: $font-primary;
         font-size: 3rem;
         letter-spacing: .5rem;
     }
+
+    &__more{
+        display: flex;
+        align-items: center;
+    }
     &__hook{
         font-family: $font-primary;
         font-size: 3.5rem;
         letter-spacing: .2rem;
- 
-
     }
+
+    &__btn{
+        margin-left: 2rem;
+        cursor: pointer;
+    }
+
+    
+
+
 }
+

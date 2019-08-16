@@ -6,6 +6,7 @@ import Section from "../../layouts/Section";
 
 //components
 import Tease from "../../components/Tease";
+import Button from "../../components/Button";
 
 class Home extends React.Component {
     render() {
@@ -13,7 +14,9 @@ class Home extends React.Component {
             <Container>
                 <Section sectionName="section-hero">
                     <Tease />
+
                 </Section>
+
             </Container>
         );
     }
