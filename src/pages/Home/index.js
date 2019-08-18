@@ -8,6 +8,9 @@ import Section from "../../layouts/Section";
 import Tease from "../../components/Tease";
 import Card from "../../components/Card";
 import InfoCard from "../../components/InfoCard";
+import StoryPictures from "../../components/Story-Pictures";
+import StoryContent from "../../components/Story-Content";
+import Heading from "../../components/Heading";
 
 
 
@@ -17,7 +20,6 @@ class Home extends React.Component {
             <Container>
                 <Section sectionName="section-hero">
                     <Tease />
-
                 </Section>
 
 
@@ -25,6 +27,13 @@ class Home extends React.Component {
                     <Card />
                     <InfoCard />
                 </Section>
+
+                <Section sectionName="section-mission-purpose">
+                    <h2 className="section-mission-purpose__heading">Mission Purpose Statement</h2>
+                </Section>
+                <StoryPictures />
+                <StoryContent />
+
 
 
 
