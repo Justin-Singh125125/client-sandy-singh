@@ -7,6 +7,8 @@
         font-size: 4rem;
         letter-spacing: .2rem;
         font-weight: 400;
+        margin-bottom: -1rem;
+        
     }
 
     &__realtor{
@@ -14,9 +16,11 @@
         font-style: italic;
         font-weight: 300;
         color: $color-primary;
+        margin-bottom: 1.5rem;
     }
 
     &__info{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+        
     }
 }
