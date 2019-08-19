@@ -1,0 +1,86 @@
+.step-card{
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__circle{
+        background-color:$color-circle-1;
+        width:25rem;
+        height:25rem;
+        border-radius: 50%;
+
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        margin-bottom: 6rem;
+
+    
+
+        &::before{
+            display: block;
+            content: "";
+
+            background-color: white;
+            width:22em;
+            height:22rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            box-shadow: 0 0 10rem rgba(black, .2);
+
+
+        }
+    }
+
+    &__step{
+        font-weight: 400;
+        font-size: 4rem;
+        margin-bottom: -2rem;
+    }
+
+    &__number{
+        font-weight: 800;
+        font-size: 8rem;
+        
+
+    }
+
+    &__step,
+    &__number
+    {   
+        color: $color-heading-1;
+        z-index: 1000;
+    }
+
+
+
+    &__info{
+    
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    &__heading{
+        color: $color-heading-1;
+        font-size: 4rem;
+        text-transform: uppercase;
+        
+    }
+
+    &__text{
+    
+    }
+}
