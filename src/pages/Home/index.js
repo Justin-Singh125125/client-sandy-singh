@@ -30,7 +30,7 @@ class Home extends React.Component {
                 </Section>
 
                 <Section sectionName="section-mission-purpose">
-                    <h2 className="section-mission-purpose__heading">Achieve your dream home as easy as, one two three</h2>
+                    <h2 className="section-mission-purpose__heading">Achieving your dream home is as easy as, one two three</h2>
 
                     <StepCard
                         stepNumber="01"
