@@ -48,10 +48,12 @@ class Home extends React.Component {
                         text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa provident laudantium neque voluptates repellendus sed suscipit. Reprehenderit eligendi mollitia iure itaque architecto tempora repellat delectus sunt. Iure dolor rerum aliquid!"
                     />
 
-
                 </Section>
-                {/* <StoryPictures />
-                <StoryContent /> */}
+
+                <StoryPictures />
+                <StoryContent />
+
+
 
 
 
