@@ -63,7 +63,7 @@ class Home extends React.Component {
                 </Section>
 
                 <Section sectionName="gallery">
-
+                    <h2 className="section-mission-purpose__heading">History of sold houses</h2>
                     <figure className="gallery__item gallery__item--1">
                         <GalleryImage src={GalleryPhoto_1} />
                     </figure>
