@@ -18,30 +18,30 @@ const Card = props => {
                         svgClass="card__icon card__icon-number"
                         svgSelection="icon-phone1" />
 
-                    916-912-6416</a>
+                    Phone: 916-912-6416</a>
 
 
                 <a className="card__email" href="mailto:sandy@stanleyrei.com">
                     <SvgIcon
                         svgClass="card__icon card__icon-number"
                         svgSelection="icon-envelop" />
-                    sandy@stanleyrei.com</a>
+                    Email: sandy@stanleyrei.com</a>
 
                 <a rel="noopener noreferrer" target="_blank" href="http://maps.google.com/?q= 9129 Elk Grove Blvd. Elk Grove CA, 95624" className="card__office-address">
                     <SvgIcon
                         svgClass="card__icon card__icon-number"
                         svgSelection="icon-office1" />
-                    9129 Elk Grove Blvd. Elk Grove CA, 95624 (office address)</a>
+                    Office Address: 9129 Elk Grove Blvd. Elk Grove CA, 95624</a>
 
                 <p className="card__fax">
                     <SvgIcon
                         svgClass="card__icon card__icon-number"
                         svgSelection="icon-phone" />
-                    916-667-9354 (office fax number)</p>
+                    Fax: 916-667-9354</p>
                 <p className="card__CalBRE">
                     <SvgIcon
                         svgClass="card__icon card__icon-number"
-                        svgSelection="icon-drivers-license-o" />01701453 (CalBRE license #)</p>
+                        svgSelection="icon-drivers-license-o" />CalBRE license #: 01701453</p>
 
             </div>
         </div>

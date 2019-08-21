@@ -3,6 +3,7 @@
     padding: 1rem 3rem;
     text-decoration: none;
     font-family: $font-primary;
+    outline: none;
 
 
     &__outline{
@@ -12,8 +13,10 @@
         border-radius: 2rem;
         border: none;
         background-color: transparent;
-        border: 1px solid white;
+        border: 2px solid white;
         transition: all .2s;
+        font-size: 1rem;
+        font-weight: 500;
 
         &:hover{
             transform: translateY(-.5rem);
