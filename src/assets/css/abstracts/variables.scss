@@ -2,24 +2,23 @@
 $color-primary: red;
 
 $background-color-info: #dbdddf;
-// $background-color-info:#f7f7f7;
-
 $color-grey-light-1: #f9f7f6;
-
 $color-grey-dark-1: #54483A;
-
 $color-heading-1: #c69963;
-
 $color-circle-1: #ffcf79;
-
 $color-footer: #101d2c;
 
-
 //fonts
-
-
 $font-primary: 'Roboto', sans-serif;
 $font-secondary:  'Lexend Tera', sans-serif;
+
+//media queries
+$bp-super-large: 88.75em; //1420px
+$bp-large-medium: 77.5em;
+$bp-largest: 75em; // 1200 px
+$bp-large: 62.5em; //1000px
+$bp-medium: 50em;  //800px
+$bp-small: 37.5em; //600px
 
 
 

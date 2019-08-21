@@ -20,6 +20,22 @@
     &__hook{
         font-size: 3.5rem;
         letter-spacing: .2rem;
+
+        
+        @media screen and (max-width: $bp-super-large){
+            font-size: 3rem;
+        }
+
+        @media screen and (max-width: $bp-large-medium){
+            font-size: 2.5rem;
+        }
+        @media screen and (max-width: $bp-large){
+            font-size: 2rem;
+        }
+        @media screen and (max-width: $bp-medium){
+            font-size: 1.5rem;
+        }
+
     }
 
     &__btn{
