@@ -1,0 +1,16 @@
+.section-footer{
+    // padding: 8rem;
+    background-color: $color-footer;
+    grid-column: 1 / -1;
+    padding: 5rem 0;
+
+
+    &__copyright{
+        font-size: 1.4rem;
+        color: #aaa;
+        margin-top: 6rem;
+        text-align: start;
+        width: 70%;
+        padding: 4rem;
+    }
+}

@@ -108,6 +108,12 @@ class Home extends React.Component {
                     </figure>
                 </Section>
 
+                <Section sectionName="section-footer">
+                    <p className="section-footer__copyright">
+                        &copy; Copyright 2019 by Justin Singh.
+                    </p>
+                </Section>
+
             </Container>
         );
     }
