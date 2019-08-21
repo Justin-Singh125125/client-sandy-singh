@@ -12,6 +12,11 @@
     // grid-template-rows: repeat(3, min-content);
 
 
+    @media screen and (max-width: $bp-medium-large){
+        padding: 2rem 0;
+    }
+
+
     &__heading{
         text-align: center;
         grid-column: 1 / -1;
@@ -21,6 +26,11 @@
         font-style: italic;
         letter-spacing: .2rem;
         text-transform: uppercase;
+
+
+        @media screen and (max-width: $bp-medium-large){
+            font-size: 2rem;
+        }
 
     }
 }
