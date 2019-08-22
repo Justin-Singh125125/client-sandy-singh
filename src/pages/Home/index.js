@@ -63,7 +63,7 @@ class Home extends React.Component {
                 <Section sectionName="gallery">
 
                     <Fade bottom duration={2000}>
-                        <h2 className="section-mission-purpose__heading">History of sold houses</h2>
+                        <h2 className="section-mission-purpose__heading">Sample of Previously Sold Homes</h2>
                     </Fade>
 
                     {this.state.galleryData.map((data) => (
