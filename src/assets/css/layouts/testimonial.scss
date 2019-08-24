@@ -1,7 +1,11 @@
 .section-testimonial{
-    padding: 15rem 0;
+    padding: 10rem 0;
     grid-column: center-start / center-end;
     grid-row: 5 / 6;
     display: grid;
     grid-template-rows: repeat(2, min-content);
+
+
+    
+
 }
