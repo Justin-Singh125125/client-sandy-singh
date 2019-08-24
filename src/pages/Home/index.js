@@ -11,15 +11,18 @@ import Card from "../../components/Card";
 import InfoCard from "../../components/InfoCard";
 import StepCard from "../../components/StepCard";
 import Gallery from "../../components/Gallery";
+import TestimonialCard from "../../components/Testimonial-Card";
 
-
+//json data
 import GalleryData from "../../assets/json/photoGallery";
+import Testimonial from "../../assets/json/testimonial";
 
 
 class Home extends React.Component {
 
     state = {
-        galleryData: GalleryData
+        galleryData: GalleryData,
+        testimonial: Testimonial
     }
 
     render() {
@@ -75,6 +78,16 @@ class Home extends React.Component {
 
                 </Section>
 
+                <Section sectionName="section-testimonial">
+                    <Fade bottom duration={2000}>
+                        <h2 className="section-mission-purpose__heading">Client Testimonials</h2>
+                    </Fade>                    {this.state.testimonial.map(testimonial => (
+                        <TestimonialCard
+                            quote={testimonial.quote}
+                            name={testimonial.name}
+                        />
+                    ))}
+                </Section>
 
                 <Section sectionName="section-footer">
 
